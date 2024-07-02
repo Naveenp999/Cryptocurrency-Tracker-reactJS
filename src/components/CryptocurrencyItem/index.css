@@ -1,0 +1,41 @@
+.item {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.currency-logo-type {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+.text {
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+}
